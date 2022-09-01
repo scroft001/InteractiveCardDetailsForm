@@ -22,38 +22,41 @@
         </div>
         <div class="cardHolderInfo">
           <p class="cardHolderNumber">0000 0000 0000 0000</p>
+          <div class="bottomInfo">
+            <p class="cardHolderName">Jane Appleseed</p>
+            <p class="expirationDate">00/00</p>
+          </div>
+          
         </div>
         
       </div>
       <div class="backOfCard">
-
+        <p class="cvc">000</p>
       </div>
     </div>
     <div class="right">
-
+      <form>
+        <label>Cardholder Name</label>
+        <input id="name" type="text" class="form-control" placeholder="e.g. Jane Appleseed">
+        <label>Card Number</label>
+        <input id="number" type="number" class="form-control" placeholder="e.g. 1234 5678 9123 0000">
+        <div class="infoRow">
+          <div class="expColumn">
+            <label>Exp. Date (MM/YY)</label>
+            <br>
+            <input id="expM" type="text" class="form-control" placeholder="MM">
+            <input id="expY" type="text" class="form-control" placeholder="YY">
+          </div>
+          <div class="cvcColumn">
+            <label>CVC</label>
+            <br>
+            <input id="cvc" type="number" class="form-control" placeholder="e.g. 123">
+          </div>
+        </div>
+        <button type="submit">Confirm</button>
+      </form>
     </div>
   </div>
-
-  <!-- 
-  Jane Appleseed
-  00/00
-
-  000
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm -->
 
   <!-- Completed state start -->
 
