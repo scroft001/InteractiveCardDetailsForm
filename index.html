@@ -37,9 +37,9 @@
     <div class="right">
       <form>
         <label>Cardholder Name</label>
-        <input id="name" type="text" class="form-control" placeholder="e.g. Jane Appleseed">
+        <input onchange="cardNameUpdate()" id="name" type="text" class="form-control" placeholder="e.g. Jane Appleseed">
         <label>Card Number</label>
-        <input id="number" type="number" class="form-control" placeholder="e.g. 1234 5678 9123 0000">
+        <input onchange="cardNumberUpdate()" id="number" type="number" class="form-control" placeholder="e.g. 1234 5678 9123 0000">
         <div class="infoRow">
           <div class="expColumn">
             <label>Exp. Date (MM/YY)</label>
@@ -68,5 +68,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
